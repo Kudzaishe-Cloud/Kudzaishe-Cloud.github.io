@@ -69,6 +69,7 @@
 [data-theme="dark"] .section.alt{background:#141f2e}
 [data-theme="dark"] .sec-h2{color:#e8f0f8;border-bottom-color:#253347}
 [data-theme="dark"] .about-twoCol p{color:#a0b4c8}
+.about-twoCol p{text-align:justify;hyphens:auto}
 [data-theme="dark"] .chip{background:#1e2a3a;border-color:#334460;color:#c8d8e8}
 [data-theme="dark"] .chip:hover{background:rgba(13,155,136,.15);border-color:var(--teal);color:var(--teal)}
 [data-theme="dark"] .tgrid-card,[data-theme="dark"] .skill-card,[data-theme="dark"] .edu-card,
@@ -313,6 +314,7 @@ a{color:inherit;text-decoration:none}
 .hero-summary{
   font-size:16px;color:var(--gray-600);line-height:1.8;
   max-width:580px;margin-bottom:32px;
+  text-align:justify;hyphens:auto;
 }
 /* cert badge row */
 .hero-certs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:36px}
@@ -465,7 +467,7 @@ a{color:inherit;text-decoration:none}
 .exp-meta{font-size:13px;color:var(--gray-400);margin-bottom:16px}
 /* "–" bullet style from reference */
 .exp-bullets{list-style:none;display:flex;flex-direction:column;gap:10px}
-.exp-bullets li{font-size:14.5px;color:var(--gray-600);line-height:1.65;padding-left:22px;position:relative}
+.exp-bullets li{font-size:14.5px;color:var(--gray-600);line-height:1.65;padding-left:22px;position:relative;text-align:justify;hyphens:auto}
 .exp-bullets li::before{content:'–';position:absolute;left:0;top:0;color:var(--teal);font-weight:700}
 .exp-bullets strong{color:var(--navy);font-weight:700}
 .skills-line{
@@ -501,9 +503,9 @@ a{color:inherit;text-decoration:none}
 .proj-tags{display:flex;flex-wrap:wrap;gap:5px;position:relative;z-index:1}
 .ptag{font-size:11px;font-weight:700;padding:3px 9px;border-radius:4px;background:rgba(255,255,255,.09);color:rgba(255,255,255,.8);border:1px solid rgba(255,255,255,.14)}
 .proj-body{padding:20px 24px}
-.proj-body p{font-size:14px;color:var(--gray-600);line-height:1.7;margin-bottom:12px}
+.proj-body p{font-size:14px;color:var(--gray-600);line-height:1.7;margin-bottom:12px;text-align:justify;hyphens:auto}
 .proj-outcomes{list-style:none;display:flex;flex-direction:column;gap:7px}
-.proj-outcomes li{font-size:13.5px;color:var(--gray-600);padding-left:18px;position:relative;line-height:1.55}
+.proj-outcomes li{font-size:13.5px;color:var(--gray-600);padding-left:18px;position:relative;line-height:1.55;text-align:justify;hyphens:auto}
 .proj-outcomes li::before{content:'';position:absolute;left:0;top:7px;width:5px;height:5px;border-radius:50%;background:var(--teal)}
 /* coming soon dashed card */
 .proj-soon{
@@ -557,7 +559,7 @@ a{color:inherit;text-decoration:none}
 .edu-deg{font-family:'Outfit',sans-serif;font-weight:800;font-size:16px;color:var(--navy);margin-bottom:4px}
 .edu-school{font-size:13.5px;font-weight:700;color:var(--teal);margin-bottom:4px}
 .edu-pill{display:inline-block;font-family:'Outfit',sans-serif;font-size:11px;font-weight:700;background:var(--navy);color:var(--white);padding:3px 11px;border-radius:100px;margin-bottom:9px}
-.edu-note{font-size:12.5px;color:var(--gray-400);font-style:italic;line-height:1.65}
+.edu-note{font-size:12.5px;color:var(--gray-400);font-style:italic;line-height:1.65;text-align:justify;hyphens:auto}
 .cert-stack{display:flex;flex-direction:column;gap:10px}
 .cert-card{
   border-radius:9px;padding:16px 18px;
@@ -821,7 +823,7 @@ footer{
       <h1 class="hero-name">Kudzaishe<br>Rutsinga</h1>
       <div class="hero-role">Cybersecurity Analyst &nbsp;·&nbsp; IAM Specialist &nbsp;·&nbsp; IT Support</div>
 
-      <p class="hero-summary">Results-driven Information Security professional with 2+ years of hands-on experience in network security, identity &amp; access management, cloud security, and enterprise IT support. Delivered measurable outcomes — from remediating compliance gaps and eliminating orphaned access to securing API infrastructure and cutting incident resolution times. Pursuing an M.S. in Cybersecurity at Yeshiva University.</p>
+      <p class="hero-summary">Information Security professional with over two years of experience across network security, identity and access management, cloud security, and enterprise IT support. I have helped organisations close compliance gaps, tighten access controls, and build more secure infrastructure. Currently pursuing an M.S. in Cybersecurity at Yeshiva University.</p>
 
       <div class="hero-certs">
         <span class="hcert hcert-teal">✔ CompTIA Security+</span>
@@ -873,9 +875,9 @@ footer{
     <div class="hero-eyebrow reveal">About Me</div>
     <div class="about-twoCol">
       <div class="reveal">
-        <p style="font-size:16px;color:var(--gray-600);line-height:1.85;margin-bottom:16px">I'm a dedicated cybersecurity professional passionate about protecting enterprise systems, identities, and data. With experience spanning <strong>SOC operations, IAM policy design, Azure cloud security, and enterprise IT support</strong>, I bring both technical depth and real-world problem-solving.</p>
-        <p style="font-size:16px;color:var(--gray-600);line-height:1.85;margin-bottom:16px">My work has produced concrete, auditable outcomes — closing compliance gaps that cleared internal GDPR/HIPAA reviews, redesigning access structures that eliminated dozens of orphaned accounts, and building secure API infrastructure from scratch. I translate complex security requirements into practical controls that stand up to scrutiny.</p>
-        <p style="font-size:16px;color:var(--gray-600);line-height:1.85">Currently advancing through an <strong style="color:var(--navy)">M.S. in Cybersecurity at Yeshiva University</strong>, with coursework in Secure OS Architecture, Digital Forensics, and Cybersecurity Audit.</p>
+        <p style="font-size:16px;color:var(--gray-600);line-height:1.85;margin-bottom:16px">I work in cybersecurity with a focus on protecting enterprise systems, identities, and data. My background covers SOC operations, IAM policy design, Azure cloud security, and enterprise IT support, and I try to bring practical thinking to each of these areas rather than just theoretical knowledge.</p>
+        <p style="font-size:16px;color:var(--gray-600);line-height:1.85;margin-bottom:16px">The work I have done has led to real, traceable results. I helped close GDPR and HIPAA control gaps that passed internal review, cleaned up access structures with dozens of stale accounts removed, and built API infrastructure from the ground up with proper authentication in place. I focus on turning security requirements into controls that actually hold.</p>
+        <p style="font-size:16px;color:var(--gray-600);line-height:1.85">I am currently working through an M.S. in Cybersecurity at Yeshiva University, with coursework covering Secure OS Architecture, Digital Forensics, and Cybersecurity Audit.</p>
         <div style="display:flex;flex-wrap:wrap;gap:7px;margin-top:22px">
           <span class="chip">Zero Trust</span><span class="chip">IAM / RBAC</span><span class="chip">SIEM</span>
           <span class="chip">Azure Sentinel</span><span class="chip">Incident Response</span><span class="chip">NIST CSF</span>
@@ -965,11 +967,11 @@ footer{
       <div class="exp-co">World Vision International</div>
       <div class="exp-meta">Full-time &nbsp;·&nbsp; Harare, Zimbabwe</div>
       <ul class="exp-bullets">
-        <li>Managed IT support and device lifecycle for <strong>3 distributed field sites</strong>, introducing a structured fault-logging process that reduced average incident resolution time from 2+ days to under 4 hours.</li>
-        <li>Led GDPR and HIPAA readiness review across all field operations — remediated <strong>11 identified control gaps</strong>, resulting in a clean internal audit with zero critical findings.</li>
-        <li>Audited and cleaned beneficiary records across <strong>4 programme datasets</strong>, identifying and resolving over 200 duplicate entries and reducing data entry errors by standardising intake procedures.</li>
-        <li>Deployed and configured endpoint encryption and secure file-transfer protocols on <strong>30+ field devices</strong>, ensuring all removable media and cloud sync activity met organisational data protection policy.</li>
-        <li>Designed and delivered a <strong>data security awareness session</strong> for 40+ field staff, covering phishing recognition, password hygiene, and device handling — improving reported policy adherence within 60 days.</li>
+        <li>Managed IT support and device lifecycle across 3 distributed field sites, putting a structured fault-logging process in place that brought average resolution time down from over two days to under four hours.</li>
+        <li>Led a GDPR and HIPAA readiness review across all field operations, working through 11 identified control gaps and bringing the organisation to a clean internal audit with no critical findings.</li>
+        <li>Audited and cleaned beneficiary records across 4 programme datasets, resolving over 200 duplicate entries and cutting data entry errors by standardising the intake process.</li>
+        <li>Deployed and configured endpoint encryption and secure file-transfer protocols on over 30 field devices, making sure removable media and cloud sync activity stayed within organisational data protection policy.</li>
+        <li>Designed and delivered a data security awareness session for 40 field staff, covering phishing recognition, password hygiene, and device handling. Reported policy adherence improved noticeably within the following 60 days.</li>
       </ul>
       <div class="skills-line"><b>Skills:</b> GDPR · HIPAA · Endpoint Security · IT Support · Device Management · Data Validation · Access Control · Windows · Linux · Staff Training</div>
     </div>
@@ -982,11 +984,11 @@ footer{
       <div class="exp-co">TelOne Private Limited</div>
       <div class="exp-meta">Internship &nbsp;·&nbsp; Harare, Zimbabwe</div>
       <ul class="exp-bullets">
-        <li>Monitored a production network of <strong>Cisco routers, switches, firewalls, and VPNs</strong> serving 100+ users — created and maintained a fault-tracking log that reduced repeat incidents by identifying 3 recurring failure patterns within the first quarter.</li>
-        <li>Contributed to daily SOC operations: triaged security event alerts, escalated <strong>6 confirmed anomalies</strong> to senior engineers within the year, and documented findings in incident response records following team workflows.</li>
-        <li>Redesigned the RBAC structure across <strong>5 internal systems</strong> — enforced least-privilege access for all user roles and introduced quarterly access reviews, eliminating a backlog of 40+ orphaned accounts and stale permissions.</li>
-        <li>Developed and secured <strong>4 RESTful API endpoints</strong> using Java and Spring Boot — implemented token-based authentication, input sanitisation, and rate limiting, replacing previously unauthenticated internal integrations.</li>
-        <li>Served as the primary Tier 1/2 support contact for <strong>100+ staff</strong> across Windows and Linux environments — maintained a personal resolution log averaging 10–15 tickets per week with same-day closure on over 80% of requests.</li>
+        <li>Monitored a production network of Cisco routers, switches, firewalls, and VPNs serving over 100 users. I kept a fault-tracking log throughout and identified 3 recurring failure patterns in the first quarter, which helped reduce repeat incidents going forward.</li>
+        <li>Took part in daily SOC operations, triaging security event alerts and escalating 6 confirmed anomalies to senior engineers over the course of the year. Each case was documented in the incident response records in line with the team workflow.</li>
+        <li>Redesigned the RBAC structure across 5 internal systems, enforcing least-privilege access for every user role and introducing quarterly access reviews. This cleared a backlog of over 40 orphaned accounts and stale permissions that had built up over time.</li>
+        <li>Developed and secured 4 RESTful API endpoints using Java and Spring Boot, adding token-based authentication, input sanitisation, and rate limiting. These replaced internal integrations that had previously run without any authentication.</li>
+        <li>Served as the main Tier 1/2 support contact for over 100 staff across Windows and Linux environments, handling 10 to 15 tickets a week on average and closing more than 80% of them on the same day they came in.</li>
       </ul>
       <div class="skills-line"><b>Skills:</b> Cisco Networking · Firewalls · VPNs · IAM / RBAC · SOC Operations · Java · Spring Boot · REST APIs · Log Analysis · Incident Response</div>
     </div>
@@ -1015,7 +1017,7 @@ footer{
           <p>Designed and deployed an enterprise-grade cloud security environment on Azure, simulating real-world SOC and IAM scenarios using zero-trust principles and automated threat detection.</p>
           <ul class="proj-outcomes">
             <li>Built IAM, RBAC, MFA enforcement, and encryption-at-rest for a full zero-trust cloud architecture.</li>
-            <li>Deployed Microsoft Sentinel as SIEM — custom KQL alert rules, log analytics workbooks, and automated incident response playbooks.</li>
+            <li>Deployed Microsoft Sentinel as the SIEM solution, writing custom KQL alert rules, building log analytics workbooks, and setting up automated incident response playbooks.</li>
             <li>Benchmarked against NIST CSF and CIS Controls, producing a documented risk assessment, gap analysis, and remediation roadmap.</li>
           </ul>
         </div>
